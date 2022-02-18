@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BEAUTIFUL ISLAND</title>
+
+    <!--자바스크립트 제이쿼리-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--아이콘-->
+    <script src="https://kit.fontawesome.com/a3b0aa8fde.js" crossorigin="anonymous"></script>
+
+    <!--슬라이드css slick-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+    <!--슬라이드 js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<body>
+    <!--헤더 시작-->
+    <header>
+        <a herf="#" class="brand">Travel</a>
+        <div class="menu-btn" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#contents" onclick="toggleMenu()">Contents</a></li>
+            <li><a href="#gallery" onclick="toggleMenu()">Gallery</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+
+    </header>
+    <!--헤더 끝-->
+
+    <!--배경-->
+    <section class="home" id="home">
+        <video class="video-slide" src="video/video1.mp4" autoplay muted loop></video>
+        <div class="content">
+            <h1>BEAUTIFUL<br><span>Island.</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eius. Placeat dolorum dignissimos
+                blanditiis optio, ipsam animi voluptates illum, temporibus nam sequi consequatur omnis neque esse iusto
+                harum vel doloribus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolorum odio
+                quisquam amet natus impedit nostrum tempore vero, consequuntur, debitis soluta reprehenderit ipsum eum
+                fuga nisi modi, id velit mollitia.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+    </section>
+    <!--배경 끝-->
+    
+
+    <!--ABOUT 시작-->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea sit temporibus consequatur repellat quisquam
+                labore eius at laudantium, quam quasi vero enim minima reprehenderit, beatae est mollitia illum in.
+                Earum!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate, ex et, vero aspernatur
+                vel culpa quaerat voluptates nemo quo commodi earum delectus eligendi quasi neque voluptatibus deleniti
+                magnam cumque.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum debitis ex, in aliquam nam animi
+                consequuntur ipsum veniam minima officiis? Modi placeat odio quidem, corporis doloribus voluptas eum
+                pariatur adipisci!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure non exercitationem, libero dolorem
+                tenetur, error est iste, consequatur porro commodi ex nesciunt assumenda! Dolorum minus eveniet, est
+                voluptates cum quaerat?
+            </p>
+        </div>
+
+    </section>
+    <!--ABOUT 끝-->
+
+    <!--CONTENTS 시작-->
+    <section class="contents" id="contents">
+        <h2>Contents</h2>
+        <div class="main">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img1.jpg" alt="이미지1" />
+                </div>
+                <h1>Tilte Beach</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas sequi minus? Repudiandae totam
+                </p>
+                <div class="btn">View</div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img2.jpg" alt="이미지2" />
+                </div>
+                <h1>Tilte Beach</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas sequi minus? Repudiandae totam
+                </p>
+                <div class="btn">View</div>
+
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img3.jpg" alt="이미지3" />
+                </div>
+                <h1>Tilte Beach</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas sequi minus? Repudiandae totam
+                </p>
+                <div class="btn">View</div>
+
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img4.jpg" alt="이미지3" />
+                </div>
+                <h1>Tilte Beach</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas sequi minus? Repudiandae totam
+                </p>
+                <div class="btn">View</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--CONTENTS 끝-->
+
+    <!--슬라이드 시작-->
+    <section class="gallery" id="gallery">
+        <h1>Gallery</h1>
+        <div class="content-slide" id="slide-div">
+            <div class="slide"><img src="images/slide1.jpg" alt="슬라이드1"></div>
+            <div class="slide"><img src="images/slide2.jpg" alt="슬라이드2"></div>
+            <div class="slide"><img src="images/slide3.jpg" alt="슬라이드3"></div>
+            <div class="slide"><img src="images/slide4.jpg" alt="슬라이드4"></div>
+            <div class="slide"><img src="images/slide5.jpg" alt="슬라이드5"></div>
+            <div class="slide"><img src="images/slide6.jpg" alt="슬라이드6"></div>
+            <div class="slide"><img src="images/slide7.jpg" alt="슬라이드7"></div>
+            <div class="slide"><img src="images/slide8.jpg" alt="슬라이드8"></div>
+        </div>
+    </section>
+
+    <!--슬라이드 끝-->
+
+    <!--컨택트 시작-->
+    <section class="contact" id="contact">
+        <video class="video-slide" src="video/video6.mp4" autoplay muted loop></video>
+        <div class="box">
+
+            <h1>Contact</h1>
+
+            <div class="contactForm">
+                <h3>Send Message</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <textarea placeholder="Name"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--컨택트 끝-->
+
+    <!--푸터-->
+    <footer>
+        <div class="inner">
+            <h1>BEAUTIFUL ISLAND</h1>
+            <P>Copyright ⓒ 2021 Online Tutorials. All Right Reserved</P>
+
+            <div class="footer-icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+
+    </footer>
+    <!--푸터 끝-->
+    <script src="script.js"></script>
+</body>
+
+</html>
